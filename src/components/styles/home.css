@@ -1,0 +1,136 @@
+/* HomeContent.js Styles */
+.content-title {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: var(--text-font);
+    margin-bottom: 0.25rem;
+}
+
+.greet {
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+}
+
+.content-subtitle {
+    position: relative;
+    font-size: 1.70rem;
+    font-weight: var(--normal);
+    color: #7fff00;
+    font-family: var(--secondary-font);
+}
+
+.content-desc {
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+}
+
+.button-flex {
+    text-align: center;
+    width: 15rem;
+    border: 0.5px solid rgb(186,22,12);
+     /* #000f89; */
+}
+.social-media-icon {
+    color: #0000ff;
+}
+
+
+/* Home.js Styles */
+.home-content {
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.home-img {
+    background: url(/src/assets/profile_img_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgb(50 205 50 / 30%);
+    width: 300px;
+    height: 300px;
+    order: 1;
+    justify-self: center;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile_animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 30% 40% 70%/60% 70% 30% 40%;
+    }
+}
+
+/* SocialMedia.js Styles */
+.social-media {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.social-media-icon {
+    font-size: 1.5rem;
+}
+.social-media-icon:hover {
+    color: #a50b5e;
+}
+
+
+
+/* ======= Responsive Typography =============== */
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .home-content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .home-content {
+        grid-template-columns: 1.5fr 3fr;
+        padding-top: 3rem;
+    }
+    .home-img {
+        order: initial;
+        justify-self: initial;
+    }
+    .data-content {
+        grid-column: 1/3;
+    }
+    .home-img {
+        box-shadow: inset 0 0 0 6px rgb(50 205 50 / 30%);
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .home-content {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 1rem;
+    }
+    .home-img {
+        box-shadow: inset 0 0 0 4px rgb(50 205 50 / 30%);
+        width: 180px;
+        height: 180px;
+    }
+    .content-title {
+        font-size: 2.3rem;
+    }
+    .data-content .button {
+        margin: auto;
+    }
+
+}
+

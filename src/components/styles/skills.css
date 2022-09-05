@@ -1,0 +1,89 @@
+/* ------------ Skills.js Style ----------------*/
+.skills-container {
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+
+.skills-content {
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #080808;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills-content:hover {
+    background: transparent;
+      border: 1px solid rgb(127,255,0);
+}
+
+.skills-title {
+   text-align: center;
+   margin-bottom: 1.5rem;
+}
+
+.skills-box {
+    display: block;
+}
+
+.skills-group {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.skills-info {
+    display: flex;
+    column-gap: 0.5rem;
+    border: 1px solid #635147;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    border-radius: 1rem;
+}
+
+.skills-info:hover {
+    background-color: #0000cd;
+}
+
+.skills-icon {
+    font-size: 1.2rem;
+    color: #0033aa;
+}
+
+.skills-name {
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: var(--medium);
+    line-height: 18px;
+}
+
+.skills-level {
+    font-size: 0.7rem;
+    color: #9400d3;
+}
+
+
+
+
+/* ======= Responsive Typography =============== */
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 200px);
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .skills-container {
+        grid-template-columns: max-content;
+    }
+}
+
+
