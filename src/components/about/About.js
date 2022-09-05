@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/about.css';
+import Resume from '../../assets/MANISH_RESUME.pdf';
 import aboutImage from '../../assets/profile_img_02.jpg';
-import Resume from '../../assets/MANISH_BISHOWKARMA_RESUME.pdf';
 import Info from './Info';
 
 
