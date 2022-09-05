@@ -7,4 +7,4 @@
 - swiper
 - Google Fonts
 
-Live Demo: 
+Live Demo: https://bkmanish01.github.io/personal-portfolio/
