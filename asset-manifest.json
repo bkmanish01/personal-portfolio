@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.b3be9b2a.css",
-    "main.js": "/personal-portfolio/static/js/main.1b1d6fc9.js",
+    "main.css": "/personal-portfolio/static/css/main.b8587f5c.css",
+    "main.js": "/personal-portfolio/static/js/main.efffbdff.js",
     "static/media/image_01.jpg": "/personal-portfolio/static/media/image_01.71b887002acf167057b9.jpg",
     "static/media/image_02.jpg": "/personal-portfolio/static/media/image_02.ac5bc8d812e16fbcaf78.jpg",
     "static/media/restaurant_project.jpg": "/personal-portfolio/static/media/restaurant_project.3ddb1be042c17560f885.jpg",
     "static/media/profile_img_02.jpg": "/personal-portfolio/static/media/profile_img_02.6621fdf3cd5d93a76b35.jpg",
+    "static/media/MANISH_RESUME.pdf": "/personal-portfolio/static/media/MANISH_RESUME.141fbfa55e6c0b826718.pdf",
     "static/media/movies_project.jpg": "/personal-portfolio/static/media/movies_project.4f408c6ad46788a9daf8.jpg",
     "static/media/profile_img_01.jpg": "/personal-portfolio/static/media/profile_img_01.b429a65e42fe7e0bfd78.jpg",
     "static/media/image_03.jpg": "/personal-portfolio/static/media/image_03.29b8300bd96b0102f4f8.jpg",
-    "static/media/MANISH_RESUME.pdf": "/personal-portfolio/static/media/MANISH_RESUME.356faa72712b691b195c.pdf",
     "static/media/ecommerce_project.jpg": "/personal-portfolio/static/media/ecommerce_project.edc1969a4d81fe114e38.jpg",
     "static/media/crud_project.png": "/personal-portfolio/static/media/crud_project.9eb55f1032aee8240f56.png",
     "static/media/image_04.jpg": "/personal-portfolio/static/media/image_04.82b64845ada181f2dbf2.jpg",
     "index.html": "/personal-portfolio/index.html",
-    "main.b3be9b2a.css.map": "/personal-portfolio/static/css/main.b3be9b2a.css.map",
-    "main.1b1d6fc9.js.map": "/personal-portfolio/static/js/main.1b1d6fc9.js.map"
+    "main.b8587f5c.css.map": "/personal-portfolio/static/css/main.b8587f5c.css.map",
+    "main.efffbdff.js.map": "/personal-portfolio/static/js/main.efffbdff.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3be9b2a.css",
-    "static/js/main.1b1d6fc9.js"
+    "static/css/main.b8587f5c.css",
+    "static/js/main.efffbdff.js"
   ]
 }
