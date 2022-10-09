@@ -13,7 +13,7 @@ const Backend = () => {
                     </div>
                     <div className="skills-info">
                         <i className="fa-brands fa-node skills-icon"></i>
-                        <h3 className="skills-name">Node JS</h3>
+                        <h3 className="skills-name">Node.js</h3>
                         <span className="skills-level">Intermediate</span>
                     </div>
                     <div className="skills-info">
@@ -32,9 +32,9 @@ const Backend = () => {
                         <span className="skills-level">Intermediate</span>
                     </div>
                     <div className="skills-info">
-                        <i className="fa-brands fa-python skills-icon"></i>
-                        <h3 className="skills-name">Python</h3>
-                        <span className="skills-level">Experienced</span>
+                        <i className="fa-brands fa-node"></i>
+                        <h3 className="skills-name">Express.js</h3>
+                        <span className="skills-level">Intermediate</span>
                     </div>
                 </div>
             </div>

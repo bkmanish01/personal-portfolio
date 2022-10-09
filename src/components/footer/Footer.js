@@ -40,7 +40,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <span className="footer-copyright">
-                    Copyrights &copy; Manish Bishowkarma | All Rights Reserved.
+                    Copyright &copy; {new Date().getFullYear()} Manish Bishowkarma | All Rights Reserved.
                 </span>
             </div>
         </footer>

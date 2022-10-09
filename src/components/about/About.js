@@ -22,7 +22,8 @@ const About = () => {
                     Excellent focus, communication, and ability to learn rapidly. Excels working in team environment, proactively 
                     review and test own work / troubleshoot and debug code, and ensure the solution are tested, extensible, maintainable, 
                     secure and perform well. Passionate about the craft of programming, Strong critical analysis and problem solving, 
-                    and using various tools to develop reliable and maintainable software. I have Completed AAS degree in Computer Information System 
+                    and using various tools to develop reliable and maintainable software.<br/>
+                    I have Completed AAS degree in Computer Information System 
                     from Front Range Community College, Westmnister, Colorado. I have spent 1+ years to learn new technologies and completed 10+ Projects
                     after graduate from college. Also, I actively participate in open source contribution program Hacktoberfest every year.
                 </p>
